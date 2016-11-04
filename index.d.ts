@@ -3,15 +3,16 @@
 // Definitions by: Carlos Garía Álvarez <http://carlosgarcia.engineer>
 // Definitions: https://github.com/cgalvarez/types-strip-ansi
 
-declare namespace StripAnsi {
+declare namespace __strip_ansi {
   /**
    * Strips ANSI escape codes.
+   *
    * @param {string} text The text to escape.
    * @returns {string} The escaped text.
    */
-  function stripAnsi(text: string): string;
+  export function stripAnsi(text: string): string;
 }
 
 declare module 'strip-ansi' {
-  export = StripAnsi;
+  export = __strip_ansi.stripAnsi;
 }
