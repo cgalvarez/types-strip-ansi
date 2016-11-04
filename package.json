@@ -1,0 +1,33 @@
+{
+  "name": "types-strip-ansi",
+  "version": "0.1.0",
+  "description": "TypeScript definitions for NPM package strip-ansi",
+  "main": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgalvarez/types-strip-ansi.git"
+  },
+  "scripts": {
+    "git:push": "git push -u origin master --force --follow-tags"
+  },
+  "keywords": [
+    "definitions",
+    "strip-ansi",
+    "types",
+    "typescript",
+    "typings"
+  ],
+  "author": {
+    "name": "Carlos García Álvarez",
+    "email": "cgalvarez.engineer@gmail.com",
+    "url": "https://carlosgarcia.engineer/"
+  },
+  "bugs": {
+    "url": "https://github.com/cgalvarez/types-strip-ansi/issues",
+    "email": "cgalvarez.engineer@gmail.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+  }
+}
